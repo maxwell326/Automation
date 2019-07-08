@@ -13,7 +13,7 @@ jobs:
        - checkout
        - run: echo "A first hello"
        
- workflows:
+workflows:
    version: 2
      one_and_two:
      jobs:
